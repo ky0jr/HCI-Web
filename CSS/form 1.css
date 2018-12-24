@@ -1,0 +1,78 @@
+body {
+		margin: 0px 0px 0px 0px;
+}
+a {
+	 	text-decoration: none;
+	 	font-size: 16px;
+}
+.topNav{
+	height: 10%;
+	width: 100%;
+	background-color: #c7e6d6;
+	padding: 0px 0px 0px 0px;
+}
+
+.orderButton{
+	position: absolute;
+	width: auto;
+	padding: 42.5px 16px 42.5px 16px;
+  	top: 0px;
+ 	right: 100px;
+ 	font-weight: bold;
+ 	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+ 	background-image: url("../Assets/HCI-Buttons_Small Button.png");
+ 	background-size: 100% 100%
+}
+.aboutUsButton{
+	position: absolute;
+	width: auto;
+	padding: 42.5px 16px 42.5px 16px;
+  	top: 0px;
+ 	right: 0px;
+ 	font-weight: bold;
+  	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+ 	background-image: url("../Assets/HCI-Buttons_Small Button.png");
+ 	background-size: 100% 100%
+}
+.Logo {
+	height: 100px; 
+	width: auto;
+	padding: 0px 0px 0px 0px;
+}
+
+.nav{
+	padding: 7.3% 0px 7.3% 0px;
+	font-size: 30px;
+	font-weight: 0;
+	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-image: url("../Assets/HCI-Buttons_BG-1.png");
+	background-size: 100% 100%
+}
+.nav form{
+	text-align: left;
+	padding: 0% 0% 0% 40%
+}
+.nav input{
+	width: 500px;
+	height: 40px;
+}
+.applyButton{
+	padding: 2% 0% 0% 56%
+}
+.Apply {
+	width: 5%;
+	padding: 16px 80px 16px 80px;
+  	top: 75%;
+	background-image: url("../Assets/HCI-Buttons_Small Button.png");
+	background-size: 100%
+}
+.contact{
+	font-size: 50px;
+	padding: auto;
+	vertical-align: middle;
+	background-color: #c7e6d6;
+}
+.contact img{
+	height: 50px;
+	width: auto;
+}
