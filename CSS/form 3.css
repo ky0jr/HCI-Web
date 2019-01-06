@@ -41,35 +41,29 @@ a {
 }
 
 .nav{
-	padding: 7.3% 0px 7.3% 0px;
+	padding: 10.475% 0px 10.475% 0px;
 	font-size: 30px;
 	font-weight: 0;
+	text-align: center;
 	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	background-image: url("../Assets/HCI-Buttons_BG-1.png");
 	background-size: 100% 100%
 }
 .nav form{
 	text-align: left;
-	padding: 0% 0% 0% 40%
+	padding: 0% 0% 0% 42%
 }
-.nav input{
-	width: 500px;
-	height: 40px;
-	font-size: 40px;
-}
-.applyButton{
-	padding: 2% 0% 0% 56%
-}
-.Apply {
+.payButton {
 	width: 5%;
-	padding: 16px 80px 16px 80px;
+	padding: 16px 125px 16px 125px;
   	top: 75%;
+	
+	text-align: center;
 	background-image: url("../Assets/HCI-Buttons_Small Button.png");
 	background-size: 100%
 }
 .contact{
 	font-size: 50px;
-	padding: auto;
 	vertical-align: middle;
 	background-color: #c7e6d6;
 }
