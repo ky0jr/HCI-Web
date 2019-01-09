@@ -162,12 +162,17 @@ header{
 .deliv_parent{
 	height: 800px;
 	width: auto;
-	background-image: image("indonesia-blank-map.png");
+	background-image: url("Assets/indonesia-blank-map.png");
 	background-size: cover;
+	background: url("Assets/indonesia-blank-map.png");
 }
 
 .deliv_txt{
-
+	float:left;
+	padding-top: 100px;
+	padding-left: 400px;
+	padding-right: 60px;
+	font-size: 64px;
 }
 
 .contact{
