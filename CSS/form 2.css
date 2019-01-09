@@ -51,7 +51,8 @@ a {
 }
 .nav form{
 	text-align: left;
-	padding: 0% 0% 0% 42%
+	margin: auto;
+	width:300px;
 }
 .payButton {
 	width: 5%;
@@ -63,11 +64,13 @@ a {
 	background-size: 100%
 }
 .contact{
-	font-size: 50px;
+	font-size: 5vw;
+	padding: 2% 2% 2% 2%;
 	vertical-align: middle;
 	background-color: #c7e6d6;
+
 }
 .contact img{
-	height: 50px;
-	width: auto;
+	width: 4%;
 }
+
