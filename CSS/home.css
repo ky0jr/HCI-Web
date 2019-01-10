@@ -100,8 +100,8 @@ body{
 .promo_txt{
 	float:right;
 	padding-top:3%;
-	padding-right: 5%;
-	font-size: 7vw;
+	padding-right: 15%;
+	font-size: 5vw;
 }
 
 .fresh_parent{
@@ -119,7 +119,7 @@ body{
 	padding-left: 5%;
 	padding-top: 5%;
 	padding-bottom: 5%;
-	width: 90%;
+	width: 60%;
 	height: auto;
 }
 
@@ -127,7 +127,7 @@ body{
 	float:left;
 	padding-top: 5%;
 	padding-left: 5%;
-	font-size: 7vw;
+	font-size: 5vw;
 }
 
 .cheap_parent{
