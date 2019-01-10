@@ -4,7 +4,6 @@
 header{
 
 }
-
 .topnav{
 	height: 150px;
 	width: auto;
@@ -40,7 +39,6 @@ header{
   border: none;
   outline: none;
   color: white;
-  padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
@@ -78,12 +76,14 @@ header{
 
 .body{
   min-height: 600px;
+  margin: 0px;
   width: auto;
 	background-image: url("../Assets/HCI-Buttons_BG-1.png");
 	background-size: 100% 100%
 }
 
 .contact{
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
 	font-size: 5vw;
 	padding: 2% 2% 2% 2%;
 	vertical-align: middle;

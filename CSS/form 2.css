@@ -93,10 +93,10 @@ body{
 }
 .nav form{
 	text-align: left;
-	padding: 0% 0% 0% 42%
+	margin: auto;
+	width:300px;
 }
 .payButton {
-	width: 5%;
 	padding: 16px 125px 16px 125px;
   	top: 75%;
 	font-size: 16px;

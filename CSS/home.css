@@ -5,6 +5,8 @@ header{
 
 }
 body{
+
+ 	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
 	margin: 0px 0px 0px 0px;
 }
 .topnav{
@@ -100,8 +102,8 @@ body{
 .promo_txt{
 	float:right;
 	padding-top:3%;
-	padding-right: 15%;
-	font-size: 5vw;
+	padding-right: 5%;
+	font-size: 6vw;
 }
 
 .fresh_parent{
@@ -119,7 +121,7 @@ body{
 	padding-left: 5%;
 	padding-top: 5%;
 	padding-bottom: 5%;
-	width: 60%;
+	width: 90%;
 	height: auto;
 }
 
@@ -127,7 +129,7 @@ body{
 	float:left;
 	padding-top: 5%;
 	padding-left: 5%;
-	font-size: 5vw;
+	font-size: 6vw;
 }
 
 .cheap_parent{
@@ -156,7 +158,7 @@ body{
 }
 
 .deliv_parent{
-	min-height: 900px;
+	min-height:900px;
 	width: auto;
 	background-image: url("../Assets/indonesia-blank-map.png");
 	background-size: cover;

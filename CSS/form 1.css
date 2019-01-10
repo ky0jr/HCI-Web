@@ -104,7 +104,7 @@ body{
 	padding: 2% 0% 0% 50%
 }
 .Apply {
-	width: 5%;
+	font-size: 30px;
 	padding: 16px 25% 16px 25%;
   	top: 75%;
 	background-image: url("../Assets/HCI-Buttons_Small Button.png");
