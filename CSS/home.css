@@ -156,6 +156,7 @@ body{
 }
 
 .deliv_parent{
+	min-height: 900px;
 	width: auto;
 	background-image: url("../Assets/indonesia-blank-map.png");
 	background-size: cover;
