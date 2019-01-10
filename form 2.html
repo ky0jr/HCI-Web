@@ -2,23 +2,30 @@
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script type="text/javascript" src="Scripts/form.js"></script>>
+	<script type="text/javascript" src="Scripts/form.js"></script>
 	<title>AV Laundry - Form 2</title>
 	<link rel="stylesheet" type="text/css" href="CSS/form 2.css">
 </head>
 <body>
-	<div class="topNav">
-		<a href="home.html"><img src="Assets/Logo.png"  class="Logo"></a>
-		<div class="topButton">
-			<div>
-				<a href="" class="orderButton">Order</a>
-			</div>
-			<div>
-				<a href="" class="aboutUsButton">About Us</a>
-			</div>
+	<header>
+		<div class="topnav">
+			<a href="home.html"><img id="Logo" src="Assets/Logo.png" height="100px" width="auto" alt="Logo"> AV Laundry</a>
 		</div>
-
-	</div>
+		<div class="navbar">
+		  <a href="#home">Home</a>
+		  <div class="dropdown">
+		    <button class="dropbtn">
+			<a>Order</a>
+		    </button>
+		    <div class="dropdown-content">
+		      <a href="#">Pick Up</a>
+		      <a href="#">Promo</a>
+				</div>
+			</div>
+			<a href="#">About Us</a>
+			<a href="">Gallery</a>
+		</div>
+	</header>
 	<div class="nav">
 		<div>Please select your</div>
 		<div>Payment Method</div>
@@ -31,7 +38,7 @@
 		</form>
 		<div>______________________</div>
 		<div id ="totalPayment">Total Payment : </div>
-		<div><a href="" class="payButton">Pay</a></div>
+		<div><button class="payButton" onclick="pay()">Pay</button></div>
 
 	</div>
 	<div class="contact">

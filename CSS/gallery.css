@@ -12,6 +12,9 @@ header{
 	font-size: 32px;
 	text-decoration: none;
 }
+.topnav a{
+	text-decoration: none;
+}
 .navbar {
   overflow: hidden;
   background-color: #78c3ff;
@@ -76,18 +79,19 @@ header{
 .body{
   min-height: 600px;
   width: auto;
-  background-color: #e1fdff;
+	background-image: url("../Assets/HCI-Buttons_BG-1.png");
+	background-size: 100% 100%
 }
 
 .contact{
-	font-size: 50px;
-	padding: auto;
+	font-size: 5vw;
+	padding: 2% 2% 2% 2%;
 	vertical-align: middle;
 	background-color: #c7e6d6;
+
 }
 .contact img{
-	height: 50px;
-	width: auto;
+	width: 4%;
 }
 
 {box-sizing: border-box}

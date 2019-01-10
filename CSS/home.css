@@ -4,12 +4,17 @@
 header{
 
 }
-
+body{
+	margin: 0px 0px 0px 0px;
+}
 .topnav{
 	height: 150px;
 	width: auto;
 	background-color: #e1fdff;
 	font-size: 32px;
+	text-decoration: none;
+}
+.topnav a{
 	text-decoration: none;
 }
 .navbar {
@@ -37,7 +42,6 @@ header{
   border: none;
   outline: none;
   color: white;
-  padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
@@ -74,113 +78,106 @@ header{
 }
 
 .promo_parent{
-	height: 350px;
 	width: auto;
 	background-color: #e1fdff;
+	background-image: url("../Assets/HCI-Buttons_BG-1.png");
+	background-size: 100% 100%;
+	display: flow-root;
 }
 
 .promo_img{
 	float:left;
+	width:45%;
 }
 .promo_img img{
-	padding-left: 300px;
-	padding-top: 20px;
-	height: 300px;
-	width: auto;
+	padding-left: 5%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	width:90%;
+	height: auto;
 }
 
-.promo_img, .promo_txt{
-    width:800px;
-    height:100px;
-    margin-right:10px;
-}
 .promo_txt{
 	float:right;
-	padding-top: 50px;
-	padding-left: 30px;
-	padding-right: 60px;
-	font-size: 64px;
+	padding-top:3%;
+	padding-right: 5%;
+	font-size: 7vw;
 }
 
 .fresh_parent{
-	height: 350px;
 	width: auto;
-	background-color: #78c3ff;
+	background-image: url("../Assets/HCI-Buttons_BG-1.png");
+	background-size: 100% 100%;
+	display:flow-root;
 }
 
 .fresh_img{
 	float:right;
+	width: 45%;
 }
 .fresh_img img{
-	padding-left: 0px;
-	padding-top: 20px;
-	height: 300px;
-	width: auto;
+	padding-left: 5%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	width: 90%;
+	height: auto;
 }
 
-.fresh_img, .fresh_txt{
-    width:800px;
-    height:100px;
-    margin-right:10px;
-}
 .fresh_txt{
 	float:left;
-	padding-top: 0px;
-	padding-left: 400px;
-	font-size: 64px;
+	padding-top: 5%;
+	padding-left: 5%;
+	font-size: 7vw;
 }
 
 .cheap_parent{
-	height: 350px;
 	width: auto;
-	background-color: #e1fdff;
+	background-image: url("../Assets/HCI-Buttons_BG-1.png");
+	background-size: 100% 100%;
+	display:flow-root;
 }
 
 .cheap_img{
 	float:left;
+	width: 45%;
 }
 .cheap_img img{
-	padding-left: 300px;
-	padding-top: 20px;
-	height: 300px;
-	width: auto;
-}
-
-.cheap_img, .cheap_txt{
-    width:800px;
-    height:100px;
-    margin-right:10px;
+	padding-left: 5%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	width: 90%;
+	height: auto;
 }
 .cheap_txt{
 	float:right;
-	padding-top: 50px;
-	padding-left: 30px;
-	padding-right: 60px;
-	font-size: 64px;
+	padding-top: 5%;
+	padding-right: 5%;
+	font-size: 5vw;
 }
 
 .deliv_parent{
-	height: 800px;
 	width: auto;
+	background-image: url("../Assets/indonesia-blank-map.png");
 	background-size: cover;
-	background: url("../Assets/indonesia-blank-map.png");
+	display:flow-root;
 }
 
 .deliv_txt{
 	float:left;
-	padding-top: 100px;
-	padding-left: 400px;
-	padding-right: 60px;
-	font-size: 64px;
+	padding-top: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 5%;
+	font-size: 5vw;
 }
 
 .contact{
-	font-size: 50px;
-	padding: auto;
+	font-size: 5vw;
+	padding: 2% 2% 2% 2%;
 	vertical-align: middle;
 	background-color: #c7e6d6;
+
 }
 .contact img{
-	height: 50px;
-	width: auto;
+	width: 4%;
 }

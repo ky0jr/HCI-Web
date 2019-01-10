@@ -7,32 +7,39 @@
 	<link rel="stylesheet" type="text/css" href="CSS/form 1.css">
 </head>
 <body>
-	<div class="topNav">
-		<a href="home.html"><img src="Assets/Logo.png"  class="Logo"></a>
-		<div class="topButton">
-			<div>
-				<a href="" class="orderButton">Order</a>
-			</div>
-			<div>
-				<a href="" class="aboutUsButton">About Us</a>
-			</div>
+	<header>
+		<div class="topnav">
+			<a href="home.html"><img id="Logo" src="Assets/Logo.png" height="100px" width="auto" alt="Logo"> AV Laundry</a>
 		</div>
-
-	</div>
+		<div class="navbar">
+		  <a href="#home">Home</a>
+		  <div class="dropdown">
+		    <button class="dropbtn">
+			<a>Order</a>
+		    </button>
+		    <div class="dropdown-content">
+		      <a href="#">Pick Up</a>
+		      <a href="#">Promo</a>
+				</div>
+			</div>
+			<a href="#">About Us</a>
+			<a href="">Gallery</a>
+		</div>
+	</header>
 	<div class="nav">
 		<form action="">
 			Name:<br>
-		 	<input type="text" name="Name" value=""><br>
+		 	<input type="text" name="Name" value="" id="Name"><br>
 		 	Phone:<br>
-		  	<input type="text" name="Phone" value=""><br>
+		  	<input type="text" name="Phone" value="" id = "Phone"><br>
 		  	Address:<br>
-		  	<input type="text" name="Address" value=""><br>
+		  	<input type="text" name="Address" value="" id = "Address"><br>
 		  	Quantity:<br>
 		  	<input type="text" name="Quantity" value="" id="Quantity"><br>
 		  	Promo Code:<br>
-		  	<input type="text" name="Promo" value="">
+		  	<input type="text" name="Promo" value="" id =  "Promo">
 		</form>
-		<div class="applyButton"><a href="form 2.html" class="Apply" onclick="inputData()">Apply</a></div>
+		<div class="applyButton"><button class="Apply" onclick="inputData()">Apply</button></div>
 
 	</div>
 	<div class="contact">

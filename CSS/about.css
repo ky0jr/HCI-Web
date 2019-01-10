@@ -1,9 +1,3 @@
-body {
-		margin: 0px 0px 0px 0px;
-}
-a {
-	 	text-decoration: none;
-}
 #Logo{
 	padding: 20px 0px 0px 30px;
 }
@@ -12,6 +6,8 @@ header{
 }
 body{
 	margin: 0px 0px 0px 0px;
+  height: 800px;
+  width: auto;
 }
 .topnav{
 	height: 150px;
@@ -82,15 +78,7 @@ body{
 .dropdown:hover .dropdown-content {
   display: block;
 }
-.nav{
-	padding: 10.475% 0px 10.475% 0px;
-	font-size: 30px;
-	font-weight: 0;
-	text-align: center;
-	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	background-image: url("../Assets/HCI-Buttons_BG-1.png");
-	background-size: 100% 100%
-}
+
 .contact{
 	font-size: 5vw;
 	padding: 2% 2% 2% 2%;
@@ -102,6 +90,28 @@ body{
 	width: 4%;
 }
 
-.apply{
-  font
+.about_parent{
+  min-height: 800px;
+	width: auto;
+	background-image: url("../Assets/HCI-Buttons_BG-1.png");
+	background-size: 100% 100%;
+	display:flow-root;
+  text-align: center;
+}
+
+#about_img{
+  height: 200px;
+  width: auto;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.about_txt{
+  text-align: center;
+  padding-bottom: 100px;
+  height: 90px;
+  vertical-align: middle;
+  padding-left: 500px;
+  padding-right: 500px;
+  font-size: 34px;
 }
