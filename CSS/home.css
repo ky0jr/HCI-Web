@@ -162,9 +162,8 @@ header{
 .deliv_parent{
 	height: 800px;
 	width: auto;
-	background-image: url("Assets/indonesia-blank-map.png");
 	background-size: cover;
-	background: url("Assets/indonesia-blank-map.png");
+	background: url("../Assets/indonesia-blank-map.png");
 }
 
 .deliv_txt{
