@@ -36,31 +36,35 @@ function inputData(){
 	}
 	if(name.length >= 4 && address.length >= 6 && quantity >= 1)
 	{
-		window.location.replace("..//HCI/form 2.html");
+		window.location.replace("form 2.html");
 	}
 	localStorage.setItem("cost", cost);
 }
 
 function pay()
 {
-	var pay = document.getElementsByName('Payment');
-	if(pay != null)
+	var pay = document.getElementsByName("Payment");
+	for (var i = 0; i < pay.length; i++)
 	{
-		window.location.replace("..//HCI/form 3.html");
+		 if (pay[i].checked)
+ 		{
+ 			window.location.replace("form 3.html");
+ 			break;
+		}
+		else if(i+1 == pay.length)
+		{
+			alert("please choose 1 of the method");
+		}
 	}
+
 }
 window.onload = function()
 {
 	update();
-	if(window.location.href == "..//HCI/form 3.html")
-	{
-		console.log("masuk");
-	}
 }
 
 function update()
 {
-	console.log(cost);
 	var temp = localStorage.getItem("cost")
 	document.getElementById("totalPayment").innerHTML = "Total Payment : " + temp;
 }
