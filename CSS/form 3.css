@@ -3,43 +3,85 @@ body {
 }
 a {
 	 	text-decoration: none;
-	 	font-size: 16px;
 }
-.topNav{
-	height: 10%;
-	width: 100%;
-	background-color: #c7e6d6;
-	padding: 0px 0px 0px 0px;
+#Logo{
+	padding: 20px 0px 0px 30px;
+}
+header{
+
+}
+body{
+	margin: 0px 0px 0px 0px;
+}
+.topnav{
+	height: 150px;
+	width: auto;
+	background-color: #e1fdff;
+	font-size: 32px;
+	text-decoration: none;
+}
+.topnav a{
+	text-decoration: none;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #78c3ff;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.orderButton{
-	position: absolute;
-	width: auto;
-	padding: 42.5px 16px 42.5px 16px;
-  	top: 0px;
- 	right: 100px;
- 	font-weight: bold;
- 	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
- 	background-image: url("../Assets/HCI-Buttons_Small Button.png");
- 	background-size: 100% 100%
-}
-.aboutUsButton{
-	position: absolute;
-	width: auto;
-	padding: 42.5px 16px 42.5px 16px;
-  	top: 0px;
- 	right: 0px;
- 	font-weight: bold;
-  	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
- 	background-image: url("../Assets/HCI-Buttons_Small Button.png");
- 	background-size: 100% 100%
-}
-.Logo {
-	height: 100px; 
-	width: auto;
-	padding: 0px 0px 0px 0px;
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 .nav{
 	padding: 10.475% 0px 10.475% 0px;
 	font-size: 30px;
@@ -49,26 +91,17 @@ a {
 	background-image: url("../Assets/HCI-Buttons_BG-1.png");
 	background-size: 100% 100%
 }
-.nav form{
-	text-align: left;
-	margin: auto;
-	width:300px;
-}
-.payButton {
-	width: 5%;
-	padding: 16px 125px 16px 125px;
-  	top: 75%;
-	
-	text-align: center;
-	background-image: url("../Assets/HCI-Buttons_Small Button.png");
-	background-size: 100%
-}
 .contact{
-	font-size: 50px;
+	font-size: 5vw;
+	padding: 2% 2% 2% 2%;
 	vertical-align: middle;
 	background-color: #c7e6d6;
+
 }
 .contact img{
-	height: 50px;
-	width: auto;
+	width: 4%;
+}
+
+.apply{
+  font
 }
